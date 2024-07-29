@@ -142,6 +142,7 @@ nav {
   padding-right: 50px;
   overflow-y: scroll;
 
+}
 .right-main::-webkit-scrollbar {
   display: none;
 }
