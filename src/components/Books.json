@@ -1,0 +1,357 @@
+[
+  {
+    "Title": "Einstein",
+    "Author": "Isaacson",
+    "Fav": ""
+  },
+  {
+    "Title": "The Doors of Preception",
+    "Author": "Huxley",
+    "Fav": "Y"
+  },
+  {
+    "Title": "Brave New World",
+    "Author": "Huxley",
+    "Fav": "Y"
+  },
+  {
+    "Title": 1984,
+    "Author": "Orwell",
+    "Fav": "Y"
+  },
+  {
+    "Title": "Amazon Unboud",
+    "Author": "Stone",
+    "Fav": ""
+  },
+  {
+    "Title": "The Rebel",
+    "Author": "Camus",
+    "Fav": ""
+  },
+  {
+    "Title": "The Myth of Sisyphus",
+    "Author": "Camus",
+    "Fav": ""
+  },
+  {
+    "Title": "Beyond Good and Evil",
+    "Author": "Nietzche",
+    "Fav": ""
+  },
+  {
+    "Title": "Thus Spoke Zarathustra",
+    "Author": "Nietzche",
+    "Fav": ""
+  },
+  {
+    "Title": "The Birth of Tragedy",
+    "Author": "Nietzche",
+    "Fav": ""
+  },
+  {
+    "Title": "On the geneology of Morals",
+    "Author": "Nietzche",
+    "Fav": "Y"
+  },
+  {
+    "Title": "The Will to Power",
+    "Author": "Nietzche",
+    "Fav": ""
+  },
+  {
+    "Title": "One Flew over the Cuckoo's nest",
+    "Author": "Kessey",
+    "Fav": ""
+  },
+  {
+    "Title": "The Republic",
+    "Author": "Plato",
+    "Fav": ""
+  },
+  {
+    "Title": "Euthyphro",
+    "Author": "Plato",
+    "Fav": "Y"
+  },
+  {
+    "Title": "Apology",
+    "Author": "Plato",
+    "Fav": "Y"
+  },
+  {
+    "Title": "Crito",
+    "Author": "Plato",
+    "Fav": ""
+  },
+  {
+    "Title": "Phaedo",
+    "Author": "Plato",
+    "Fav": ""
+  },
+  {
+    "Title": "Theaetetus",
+    "Author": "Plato",
+    "Fav": ""
+  },
+  {
+    "Title": "Structure of Scientific Revolutions",
+    "Author": "Kuhn",
+    "Fav": ""
+  },
+  {
+    "Title": "Modern Man in Search of a Soul",
+    "Author": "Yung",
+    "Fav": ""
+  },
+  {
+    "Title": "Nausea",
+    "Author": "Sarte",
+    "Fav": ""
+  },
+  {
+    "Title": "The Stranger",
+    "Author": "Camus",
+    "Fav": ""
+  },
+  {
+    "Title": "The Fall",
+    "Author": "Camus",
+    "Fav": ""
+  },
+  {
+    "Title": "The Plague",
+    "Author": "Camus",
+    "Fav": ""
+  },
+  {
+    "Title": "The First Man",
+    "Author": "Camus",
+    "Fav": ""
+  },
+  {
+    "Title": "Do androids Dream of Electric Sheep",
+    "Author": "Dick",
+    "Fav": "Y"
+  },
+  {
+    "Title": "Foundation",
+    "Author": "Asimov",
+    "Fav": ""
+  },
+  {
+    "Title": "Why do you care what other people think?",
+    "Author": "Feynman",
+    "Fav": ""
+  },
+  {
+    "Title": "The Handmaid's Tale",
+    "Author": "Artwood",
+    "Fav": ""
+  },
+  {
+    "Title": "1Q84",
+    "Author": "Murikami",
+    "Fav": "Y"
+  },
+  {
+    "Title": "Kafka on the Shore",
+    "Author": "Murikami",
+    "Fav": ""
+  },
+  {
+    "Title": "Norweignian Woods",
+    "Author": "Murikami",
+    "Fav": ""
+  },
+  {
+    "Title": "Colorless Tsukuru Tazaki",
+    "Author": "Murikami",
+    "Fav": ""
+  },
+  {
+    "Title": "Metamorphosis",
+    "Author": "Kafka",
+    "Fav": ""
+  },
+  {
+    "Title": "Love and Math",
+    "Author": "Frankel",
+    "Fav": ""
+  },
+  {
+    "Title": "Meditations on First Philosophy",
+    "Author": "Descartes",
+    "Fav": "Y"
+  },
+  {
+    "Title": "Mastery",
+    "Author": "Greene",
+    "Fav": ""
+  },
+  {
+    "Title": "48 laws of power",
+    "Author": "Greene",
+    "Fav": ""
+  },
+  {
+    "Title": "The Idiot",
+    "Author": "Dostoevsky",
+    "Fav": ""
+  },
+  {
+    "Title": "The Brothers Karamazov",
+    "Author": "Dostoevsky",
+    "Fav": "Y"
+  },
+  {
+    "Title": "Notes from the Underground",
+    "Author": "",
+    "Fav": "Y"
+  },
+  {
+    "Title": "Crime and Punishment",
+    "Author": "Dostoevsky",
+    "Fav": ""
+  },
+  {
+    "Title": "The Gambler",
+    "Author": "Dostoevsky",
+    "Fav": ""
+  },
+  {
+    "Title": "The Blind Owl",
+    "Author": "Hedayat",
+    "Fav": "Y"
+  },
+  {
+    "Title": "Dear Uncle Napolean",
+    "Author": "Pezeshkzad",
+    "Fav": ""
+  },
+  {
+    "Title": "The Master and Margarrita",
+    "Author": "Bulgakov",
+    "Fav": ""
+  },
+  {
+    "Title": "Ressurection",
+    "Author": "Tolstoy",
+    "Fav": ""
+  },
+  {
+    "Title": "Dune",
+    "Author": "Herbert",
+    "Fav": ""
+  },
+  {
+    "Title": "Dune: Messiah",
+    "Author": "Herbert",
+    "Fav": ""
+  },
+  {
+    "Title": "Dune: Children of Dune",
+    "Author": "Herbert",
+    "Fav": ""
+  },
+  {
+    "Title": "The Hobbit",
+    "Author": "Tolkien",
+    "Fav": ""
+  },
+  {
+    "Title": "Lord of the Rings: The Fellowship of the Ring",
+    "Author": "Tolkien",
+    "Fav": ""
+  },
+  {
+    "Title": "Lord of the Rings: The Two Towers",
+    "Author": "Tolkien",
+    "Fav": "Y"
+  },
+  {
+    "Title": "Lord of the Rings: The Return of The King",
+    "Author": "Tolkien",
+    "Fav": ""
+  },
+  {
+    "Title": "Psychology of Money",
+    "Author": "Housell",
+    "Fav": ""
+  },
+  {
+    "Title": "How to Win Friends and Influence Poople",
+    "Author": "Dale Carnegie",
+    "Fav": ""
+  },
+  {
+    "Title": "The Divan of Hafez",
+    "Author": "Hafez",
+    "Fav": ""
+  },
+  {
+    "Title": "The Pragmatic Programmer",
+    "Author": "Thomas, Hunt",
+    "Fav": ""
+  },
+  {
+    "Title": "Godel, Escher, Bach",
+    "Author": "Hofstadter",
+    "Fav": "Y"
+  },
+  {
+    "Title": "I am a Strange Loop",
+    "Author": "Hofstadter",
+    "Fav": ""
+  },
+  {
+    "Title": "Consciousness Explained",
+    "Author": "Dennet",
+    "Fav": "Y"
+  },
+  {
+    "Title": "Quantum Computing for Everyone",
+    "Author": "Bernhardt",
+    "Fav": ""
+  },
+  {
+    "Title": "Iran: Modern History",
+    "Author": "Amanat",
+    "Fav": ""
+  },
+  {
+    "Title": "Either/Or",
+    "Author": "Kierkegard",
+    "Fav": ""
+  },
+  {
+    "Title": "The Campaigns of Alexander",
+    "Author": "Aryan",
+    "Fav": ""
+  },
+  {
+    "Title": "A Beautiful Question",
+    "Author": "Qilczek",
+    "Fav": ""
+  },
+  {
+    "Title": "Enquiry Concerning Human Understanding",
+    "Author": "Hume",
+    "Fav": "Y"
+  },
+  {
+    "Title": "The Count of Mont Cristo",
+    "Author": "Dumas",
+    "Fav": "Y"
+  },
+  {
+    "Title": "Stalin: The Court of The Red Tsar",
+    "Author": "Montefiore",
+    "Fav": ""
+  },
+  {
+    "Title": "The Emperors New Mind",
+    "Author": "Penrose",
+    "Fav": ""
+  }
+]

@@ -1,0 +1,275 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  --font-color: rgba(255, 255, 255, 0.87);
+  color: rgba(255, 255, 255, 0.87);
+  --background-color: #242424;
+  --nav-color: rgb(8, 8, 8) 4;
+  --dodger-blue: #1e90ff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
+  padding: 0;
+}
+
+body {
+  background-color: var(--background-color);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+nav {
+  background-color: rgb(219, 219, 219);
+  width: 100%;
+  height: 60px;
+  border-bottom: 5px solid var(--dodger-blue);
+  border-top-right-radius: 20px;
+}
+
+.div-ref {
+  text-decoration: none;
+  color: var(--font-color)
+  
+}
+
+#link-container {
+  float: right;
+}
+
+#link-container > .link {
+  margin-right: 20px;
+  font-size: 30px;
+  text-decoration: none;
+  color: var(--dodger-blue)
+}
+
+
+.personal-details {
+  width: 50%;
+  height: 100%;
+  float: left;
+  position: absolute;
+  margin-left: 0px;
+}
+
+.personal-details > h1 {
+  float: left;
+  margin-top: 0px;
+  margin-left: 30px;
+  font-size: 80px;
+  font-weight: 200;
+  font-family: cursive;
+
+}
+
+.personal-image {
+  height: 400px;
+  position: absolute;
+  margin-left: 0px;
+  top: 120px;
+  left: 20px;
+  
+}
+
+.personal-details > h2 {
+  position: absolute;
+  top: 520px;
+}
+
+.UBC {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.87);
+
+}
+
+.personal-details > h4 {
+  position: absolute;
+  top: 560px;
+}
+
+
+.container{
+  position: absolute;
+  top: 600px;
+  margin: 20px auto;
+  width:440px;
+  height:160px;
+  display:grid;
+  grid-template-columns: 220px 220px;
+  grid-row: auto auto;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  .box{
+    background-color:#333;
+    padding:8px;
+    border-radius:10px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:35px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+
+  }
+
+  .box:hover {
+    cursor: pointer;
+  }
+}
+
+.box.highlight {
+  color: var(--dodger-blue);
+  border: 5px solid var(--dodger-blue);
+}
+
+
+
+.right-main {
+  width: 50%;
+  height: 650px;
+  float: right;
+  margin-top: 30px;
+  padding-top: 160px;
+  padding-right: 50px;
+  overflow-y: scroll;
+}
+
+.right-main::-webkit-scrollbar {
+  display: none;
+}
+
+
+.paragraph{
+  text-align: left;
+  text-indent: 20px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+
+
+hr {
+  background-color: var(--dodger-blue);
+  border-color: var(--dodger-blue);
+  margin-top: 30px;
+}
+
+
+
+
+
+
+
+.skills > div {
+  display: flex;
+  padding-top: 20px;
+}
+
+
+
+
+#primary-skills > img {
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+  float: left;  
+}
+
+
+#secondary-skills > img {
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+  float: left; 
+}
+
+
+
+
+.projects-container {
+  margin-top: 5%;
+  width: auto;
+}
+
+.project {
+  width: 80%;
+  margin: 10px auto;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  border: none;
+}
+
+.project:hover {
+  background-color: #3a3737;
+  box-shadow: -5px -5px 70px var(--dodger-blue);
+  transform: scale(1.2);
+  transition: all 0.3s;
+}
+
+.image-container {
+  width: 100%;
+  height: 100%;
+}
+
+.project-image {
+  margin-top: 20px;
+  margin-left: 5px;
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+
+.project-details {
+  margin-left: 20px;
+}
+
+.project-header {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.project-par{
+  text-align: left;
+  padding-left: 10px;
+}
+
+
+#book-hr {
+  margin-top: 400px;
+}
+
+
+.book-list-container {
+  width: 100%;
+  height: 600px;
+  float:left;
+  text-align: left;
+  font-family: 'Courier New', Courier;
+  overflow-y: auto;
+}
+
+li.favorite {
+  color: red;
+}
+
+.leftBooks {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.rightBooks {
+  width: 50%;
+  height: 100%;
+  float: right;
+}
