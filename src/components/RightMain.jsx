@@ -13,33 +13,34 @@ function RightMain({section}) {
   const blogRef = useRef()
 
   useEffect(function(){
+    console.log("Switching section to: ", section);
     switch (section){
       case "Interests":
-        bioRef.current?.scrollIntoView({behavior:"smooth",block: 'nearest', inline: 'nearest' });
+        bioRef.current.scrollIntoView({behavior:"smooth",block: 'nearest', inline: 'nearest' });
         break;
       case "Skills":
-        skillsRef.current?.scrollIntoView({behavior:"smooth",block: 'nearest', inline: 'nearest' })
+        skillsRef.current.scrollIntoView({behavior:"smooth",block: 'nearest', inline: 'nearest' });
         break;
       case "Projects":
-        projectsRef.current?.scrollIntoView({behavior:"smooth",block: 'nearest', inline: 'nearest' })
+        projectsRef.current.scrollIntoView({behavior:"smooth",block: 'nearest', inline: 'nearest' });
         break
       case "Blogs":
-        blogRef.current?.scrollIntoView({behavior:"smooth",block: 'nearest', inline: 'nearest' })
+        blogRef.current.scrollIntoView({behavior:"smooth",block: 'nearest', inline: 'nearest' });
         break;
       default:
-        console.log("None chosen")
-        
+        console.log("None chosen");
     }
-  }, [section])
-
+  }, [section])    
 
   return (
     <div className="right-main">
+      <div className="right-scroll-container">
       <MyBio bioRef={bioRef}/>
       <hr />
       <MySkills skillsRef={skillsRef}/>
       <hr />
       <Projects projectsRef={projectsRef}/>
+      </div>
     </div>
   );
 }

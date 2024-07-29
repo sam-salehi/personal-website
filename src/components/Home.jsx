@@ -8,9 +8,9 @@ const allSections = ["Interests", "Skills", "Projects", "Blogs"]
 
 function Home() {
 
-  globalThis. scrollTo({ top: 0, left: 0, behavior: "smooth" }); //just making sure page initializes at top
+  globalThis.scrollTo({ top: 0, left: 0, behavior: "smooth" }); //just making sure page initializes at top
 
-  const [section, setSection] = useState("none")
+  const [section, setSection] = useState(allSections[0])
 
   function handleSetSection(newSection){
     if (!allSections.includes(newSection)) throw new Error("Section not contained: ", newSection)

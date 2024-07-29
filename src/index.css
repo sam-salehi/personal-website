@@ -134,17 +134,25 @@ nav {
 
 
 .right-main {
-  width: 50%;
+  width: 60%;
   height: 650px;
   float: right;
   margin-top: 30px;
   padding-top: 160px;
   padding-right: 50px;
   overflow-y: scroll;
-}
 
 .right-main::-webkit-scrollbar {
   display: none;
+}
+
+.right-scroll-container {
+  width: 70%;
+  float: left;
+  margin-left: 15%;
+  overflow-x: visible;
+
+
 }
 
 
@@ -194,14 +202,20 @@ hr {
 
 
 
+.div-ref {
+  overflow: visible;
+}
 
 .projects-container {
   margin-top: 5%;
   width: auto;
+  overflow: visible;
 }
 
 .project {
   width: 80%;
+  overflow: visible;
+  position: relative;
   margin: 10px auto;
   border-radius: 20px;
   display: flex;
@@ -212,7 +226,7 @@ hr {
 .project:hover {
   background-color: #3a3737;
   box-shadow: -5px -5px 70px var(--dodger-blue);
-  transform: scale(1.2);
+  transform: scale(1.15);
   transition: all 0.3s;
 }
 
