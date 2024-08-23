@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 function NavGrid({section, onSetSection}) {
   return (
     <div className="container">
@@ -8,5 +10,11 @@ function NavGrid({section, onSetSection}) {
     </div>
   );
 }
+
+NavGrid.propTypes = {
+  section: PropTypes.string.isRequired,
+  onSetSection: PropTypes.func.isRequired
+}
+
 
 export default NavGrid;

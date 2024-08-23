@@ -7,7 +7,7 @@ function MyBio({bioRef}) {
   let textRef = useRef("");
   // forceRender  is used to make sure a rerender occurs to display text after its decoded in useEffect
   const [forceRender, setForceRender] = useState(false);
-
+  console.log(forceRender) // remove later
   useEffect(function () {
     fetch(bio)
       .then((r) => r.text())

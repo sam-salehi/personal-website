@@ -1,4 +1,5 @@
 import { useRef,useEffect } from "react";
+import PropTypes from 'prop-types';
 
 import MyBio from "./MyBio";
 import MySkills from "./MySkills";
@@ -44,5 +45,15 @@ function RightMain({section, onSetSection}) {
     </div>
   );
 }
+
+
+
+
+RightMain.propTypes = {
+  section: PropTypes.string.isRequired,
+  onSetSection: PropTypes.func.isRequired
+}
+
+
 
 export default RightMain;
