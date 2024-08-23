@@ -85,10 +85,31 @@ nav {
   top: 520px;
 }
 
+
+.UBC_background {
+  background: radial-gradient(circle, dodgerblue, yellow);
+  background-clip: text;
+  color: transparent;
+  animation: 20s linear infinite chosentab;
+}
+
+@keyframes chosentab {
+  0%{
+    background-position: 0% 0%;
+  }
+
+  50%{
+    background-position: 100% 100%;
+  }
+
+  100%{
+    background-position: 0% 0%;
+  }
+}
+
 .UBC {
   text-decoration: none;
   color: rgba(255, 255, 255, 0.87);
-
 }
 
 .personal-details > h4 {
@@ -135,7 +156,7 @@ nav {
 
 .right-main {
   width: 60%;
-  height: 650px;
+  height: 1000px;
   float: right;
   margin-top: 30px;
   padding-top: 160px;
@@ -148,7 +169,7 @@ nav {
 }
 
 .right-scroll-container {
-  width: 70%;
+  width: 80%;
   float: left;
   margin-left: 15%;
   overflow-x: visible;
@@ -239,8 +260,8 @@ hr {
 .project-image {
   margin-top: 20px;
   margin-left: 5px;
-  width: 100%;
-  height: 100%;
+  width: 200px;
+  height: 200px;
   float: left;
 }
 

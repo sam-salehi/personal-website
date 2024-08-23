@@ -4,7 +4,7 @@ import LeftMain from "./LeftMain.jsx";
 import RightMain from "./RightMain.jsx";
 
 
-const allSections = ["Interests", "Skills", "Projects", "Blogs"]
+const allSections = ["Bio", "Skills", "Projects", "Blogs"]
 
 function Home() {
 
@@ -21,7 +21,7 @@ function Home() {
   return (
     <main>
       <LeftMain section={section} onSetSection={handleSetSection}/>
-      <RightMain section={section}/>
+      <RightMain section={section} onSetSection={handleSetSection}/> 
     </main>
   );
 }

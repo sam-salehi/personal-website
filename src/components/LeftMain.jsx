@@ -9,9 +9,11 @@ function LeftMain({section, onSetSection}) {
       <img src={personal} className="personal-image" alt="Portrait"></img>
       <h2>
         BSc at{" "}
+        <span className="UBC_background">
         <a className="UBC " href="https://www.ubc.ca/">
           University of British Columbia
         </a>
+        </span>
       </h2>
       <h4> Aspiring Machine Learning Engineer</h4>
       <NavGrid section={section} onSetSection={onSetSection}/>

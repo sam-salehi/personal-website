@@ -5,7 +5,7 @@ import MySkills from "./MySkills";
 import Projects from "./Projects";
 
 
-function RightMain({section}) {
+function RightMain({section, onSetSection}) {
   // forceRender  is used to make sure a rerender occurs to display text after its decoded in useEffect
   const bioRef = useRef()
   const skillsRef = useRef()
@@ -15,7 +15,7 @@ function RightMain({section}) {
   useEffect(function(){
     console.log("Switching section to: ", section);
     switch (section){
-      case "Interests":
+      case "Bio":
         bioRef.current.scrollIntoView({behavior:"smooth",block: 'nearest', inline: 'nearest' });
         break;
       case "Skills":
