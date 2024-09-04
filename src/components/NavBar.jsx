@@ -13,6 +13,7 @@ function NavBar() {
         <Link to="/aboutme" className="link">
           About
         </Link>
+
       </div>
     </nav>
   );

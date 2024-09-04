@@ -13,7 +13,7 @@ function Home() {
   const [section, setSection] = useState(allSections[0])
 
   function handleSetSection(newSection){
-    if (!allSections.includes(newSection)) throw new Error("Section not contained: ", newSection)
+    if (!allSections.includes(newSection)) throw new Error("Section notc ontained: ", newSection)
 
     setSection(newSection)
   }

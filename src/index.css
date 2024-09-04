@@ -309,3 +309,28 @@ li.favorite {
   height: 100%;
   float: right;
 }
+
+
+#referenceBox {
+  position: absolute;
+  top: 800px;
+  height: fit-content;
+  width: fit-content;
+}
+
+.refLink {
+  padding: none ;
+  margin: none;
+}
+
+.refImage {
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  float: left;  
+
+}
+
+#resume {
+  border-radius: 1rem;
+}
