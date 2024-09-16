@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import personal from "../assets/personal.jpeg";
+import personal from "../assets/personal2.jpg";
 import NavGrid from "./NavGrid";
 import References from "./References";
 

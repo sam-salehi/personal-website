@@ -8,6 +8,7 @@ import AboutMe from "./components/AboutMe";
 import "./App.css";
 
 function App() {
+  console.log("Deployed")
   return (
     <>
       <BrowserRouter>
