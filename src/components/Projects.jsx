@@ -1,9 +1,9 @@
 /* eslint-disable react/prop-types */
 import KNN from "../assets/projects/KNN.png";
-import CNN from "../assets/projects/CNN.png"
+// import CNN from "../assets/projects/CNN.png"
 import OTHELLO from "../assets/projects/OTHELLO.png";
 import HUFFMAN from "../assets/projects/HUFF.svg";
-import NOTE from  "../assets/projects/NOTE.png";
+// import NOTE from  "../assets/projects/NOTE.png";
 
 var projects = [
 
@@ -20,12 +20,12 @@ var projects = [
     gitlink: "https://github.com/Blewbsam/Huffman-encoder"
 
   },
-  {
-    label: "Simple next note prediction with a three hidden layered neural network",
-    description: "Training a standard neural network model made with pytorch on the Maestro dataset to produce the next note to be predicted given a sequence of notes and using the model to generate a piece which is turned into a midi file.",
-    img: NOTE,
-    gitlink : "https://github.com/Blewbsam/next-note-predictor"
-  },
+  // {
+  //   label: "Simple next note prediction with a three hidden layered neural network",
+  //   description: "Training a standard neural network model made with pytorch on the Maestro dataset to produce the next note to be predicted given a sequence of notes and using the model to generate a piece which is turned into a midi file.",
+  //   img: NOTE,
+  //   gitlink : "https://github.com/Blewbsam/next-note-predictor"
+  // },
 
   {
     label: "K-Nearest Neighbor aproach to Genre classification",
@@ -35,13 +35,13 @@ var projects = [
     gitlink:
       "https://github.com/Blewbsam/KNN-Song-Genre/blob/main/Final%20report.ipynb",
   },
-  {
-    label: "Fruit Classificaiton using Convolutional Neural Networks",
-    description: "Using tensorflow to train multiple CNN's and see how they behave. Attained a final accuracy of 98% through transfer learning with ResNet 101 Architecture.",
-    img:CNN,
-    gitlink: "https://github.com/Blewbsam/CNN-Fruit-Classification/blob/main/Fruit_Classification.ipynb"
+  // {
+  //   label: "Fruit Classificaiton using Convolutional Neural Networks",
+  //   description: "Using tensorflow to train multiple CNN's and see how they behave. Attained a final accuracy of 98% through transfer learning with ResNet 101 Architecture.",
+  //   img:CNN,
+  //   gitlink: "https://github.com/Blewbsam/CNN-Fruit-Classification/blob/main/Fruit_Classification.ipynb"
   
-  },
+  // },
 
 ];
 // projects is list of type project
