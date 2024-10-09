@@ -18,7 +18,7 @@ function LeftMain({section, onSetSection}) {
       </h2>
       <h4> Aspiring Machine Learning Engineer</h4>
       <NavGrid section={section} onSetSection={onSetSection}/>
-      <References />
+      {/* <References /> */}
     </div>
   );
 }

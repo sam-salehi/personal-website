@@ -6,6 +6,12 @@ import HUFFMAN from "../assets/projects/HUFF.svg";
 // import NOTE from  "../assets/projects/NOTE.png";
 
 var projects = [
+  // {
+  //   label: "LearningLoom", 
+  //   description: "Using Retrieval-Augmented Generation with llm's in full Stack web application to make finding learning resources in Academia more accessible to curious students",
+  //   img: LearningLoom,
+  //   gitlink: ""
+  // },
 
   {
     label: "Minimax adaptation to play othello",

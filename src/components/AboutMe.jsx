@@ -1,8 +1,9 @@
 import Books from "./Books";
+import References from "./References";
 
 function AboutMe() {
   return <body>
-    <hr id="book-hr" />
+    <References />
     <Books />
 
 

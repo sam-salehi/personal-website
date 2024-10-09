@@ -13,20 +13,39 @@ function RightMain({section, onSetSection}) {
   const bioRef = useRef()
   const skillsRef = useRef()
   const projectsRef = useRef()
-  const blogRef = useRef()
+  // const blogRef = useRef()
 
-  function handleScroll(e) {
-    const scrollRatio = e.target.scrollTop /refContainer.current.offsetHeight
-    console.log(scrollRatio)
-    switch (true) {
-        case (scrollRatio > 0.45):
-          onSetSection("Projects")
+
+
+
+  function handleScroll(e) { //TODO: functionality of this function is not proper it depends on size of the elemnts so read those in and use them to control ratios.
+    // const scrollRatio = e.target.scrollTop / refContainer.current.offsetHeight
+    const containerTop = refContainer.current.getBoundingClientRect().top // distance of container to top of the page 
+    let tops = [
+      bioRef.current.getBoundingClientRect().top,
+      skillsRef.current.getBoundingClientRect().top,
+      projectsRef.current.getBoundingClientRect().top
+    ]
+    tops = tops.map(dis => dis - containerTop)
+    
+    const scrollIndex = tops.findIndex(dis => dis > 0)
+    console.log(scrollIndex)
+
+  
+
+    switch (scrollIndex) {
+        case 0:
+          onSetSection("Bio")
+          // onSetSection("Projects")
           break
-        case (scrollRatio > 0.28):
+        case 1:
           onSetSection("Skills")
           break
+        case 2: 
+          onSetSection("Projects")
+          break
         default:
-          onSetSection("Bio")
+          throw new Error("Inavlid scrollIndex given.")
     }
     
   
@@ -50,11 +69,10 @@ function RightMain({section, onSetSection}) {
       case "Projects":
         projectsRef.current.scrollIntoView({behavior:"smooth",block: 'nearest', inline: 'nearest' });
         break
-      case "Blogs":
-        blogRef.current.scrollIntoView({behavior:"smooth",block: 'nearest', inline: 'nearest' });
-        break;
+      // case "Blogs":
+      //   blogRef.current.scrollIntoView({behavior:"smooth",block: 'nearest', inline: 'nearest' });
+      //   break; blogRef currently does not exist
       default:
-        console.log("None chosen");
     }
   }, [section])    
 
@@ -62,9 +80,9 @@ function RightMain({section, onSetSection}) {
     <div className="right-main" ref={refContainer} onScroll={handleScroll}>
       <div className="right-scroll-container">
       <MyBio bioRef={bioRef} />
-      <hr />
+      <hr className="main-page-hr"/>
       <MySkills skillsRef={skillsRef} />
-      <hr />
+      <hr className="main-page-hr"/>
       <Projects projectsRef={projectsRef} />
       </div>
     </div>

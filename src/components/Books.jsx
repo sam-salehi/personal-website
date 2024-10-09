@@ -25,7 +25,9 @@ function Books(){
     }
     ,[])
 
-    return <div className="book-list-container">
+    return <>
+    <div className="book-list-container">
+        <hr />
         <h2>Here's a list of my favourite books in case you're curious.</h2>
         <ul>
             {/* {BookJSON.map((book) => <li className={book.Fav == "Y" && "favorite"} key={book.Title}>{book.Title}-{book.Author}</li>)} */}
@@ -34,6 +36,7 @@ function Books(){
             
         </ul>
     </div>
+    </>
 }
 
 
