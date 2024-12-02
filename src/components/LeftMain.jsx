@@ -1,7 +1,6 @@
 /* eslint-disable react/prop-types */
 import personal from "../assets/personal2.jpg";
 import NavGrid from "./NavGrid";
-import References from "./References";
 
 function LeftMain({section, onSetSection}) {
   return (
@@ -18,7 +17,6 @@ function LeftMain({section, onSetSection}) {
       </h2>
       <h4> Aspiring Machine Learning Engineer</h4>
       <NavGrid section={section} onSetSection={onSetSection}/>
-      {/* <References /> */}
     </div>
   );
 }

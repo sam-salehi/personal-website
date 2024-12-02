@@ -35,6 +35,11 @@ nav {
   border-top-right-radius: 20px;
 }
 
+h3 {
+  padding-left: 0;
+  margin-left: 0;
+}
+
 .div-ref {
   text-decoration: none;
   color: var(--font-color)
@@ -329,6 +334,14 @@ li.favorite {
   height: 60px;
   margin-right: 10px;
   float: left;  
+
+}
+
+
+.skill-points {
+  display: flex;
+  justify-content: space-evenly;
+
 
 }
 
