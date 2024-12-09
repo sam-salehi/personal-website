@@ -59,10 +59,9 @@ h3 {
 
 
 .personal-details {
-  width: 30%;
-  height: 96vh;
+  width: 40%;
+  height: 100%;
   float: left;
-  position: absolute;
 }
 
 .personal-details > h1 {
@@ -158,6 +157,7 @@ h3 {
 .main {
   display: flexbox;
   height: 96vh;
+  width: 100%;
 }
 
 
