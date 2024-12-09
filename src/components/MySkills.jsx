@@ -23,18 +23,6 @@ function MySkills({skillsRef}) {
   return (
     <div ref={skillsRef} className="skills">
       <span> Experience With</span>
-      {/* <div className="skill-points">
-          <ul style={{ listStyleType: 'disc' }}>
-            {SKILLS.slice(0, Math.ceil(SKILLS.length / 2)).map((skill, index) => (
-              <li key={index}>{skill}</li>
-            ))}
-          </ul>
-          <ul style={{ listStyleType: 'disc' }}>
-            {SKILLS.slice(Math.ceil(SKILLS.length / 2)).map((skill, index) => (
-              <li key={index}>{skill}</li>
-            ))}
-          </ul>
-      </div> */}
       <div id="primary-skills">
         {
           LOGOS.map((logo,i) => <img src={logo} key={i}/>)

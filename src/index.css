@@ -24,14 +24,14 @@ body {
   background-color: var(--background-color);
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  overflow: clip;
 }
 
 nav {
   background-color: rgb(219, 219, 219);
   width: 100%;
-  height: 60px;
-  border-bottom: 5px solid var(--dodger-blue);
+  height: 6vh;
+  border-bottom: 0.5rem solid var(--dodger-blue);
   border-top-right-radius: 20px;
 }
 
@@ -51,43 +51,45 @@ h3 {
 }
 
 #link-container > .link {
-  margin-right: 20px;
-  font-size: 30px;
+  margin-right: 1rem;
+  font-size: 2rem;
   text-decoration: none;
   color: var(--dodger-blue)
 }
 
 
 .personal-details {
-  width: 50%;
-  height: 100%;
+  width: 30%;
+  height: 96vh;
   float: left;
   position: absolute;
-  margin-left: 0px;
 }
 
 .personal-details > h1 {
   float: left;
-  margin-top: 0px;
-  margin-left: 30px;
-  font-size: 80px;
-  font-weight: 200;
+  margin-top: 0;
+  margin-left: 2rem;
+  font-size: 5rem;
   font-family: cursive;
-
 }
 
 .personal-image {
-  height: 400px;
-  position: absolute;
-  margin-left: 0px;
-  top: 120px;
-  left: 20px;
+  height: 45%;
+  margin-left: 2rem;
+  float: left;
   
 }
 
 .personal-details > h2 {
-  position: absolute;
-  top: 520px;
+  float: left;
+  margin-left: 2rem;
+  margin-bottom: 0;
+}
+
+.personal-details > h4 {
+  float: left;
+  margin-top: 0;
+  margin-left: 2rem;
 }
 
 
@@ -117,32 +119,26 @@ h3 {
   color: rgba(255, 255, 255, 0.87);
 }
 
-.personal-details > h4 {
-  position: absolute;
-  top: 560px;
-}
+
 
 
 .container{
-  position: absolute;
-  top: 600px;
-  margin: 20px auto;
-  width:440px;
-  height:160px;
+  margin: 2rem auto;
+  width:100%;
+  height:18%;
   display:grid;
-  grid-template-columns: 220px 220px;
+  grid-template-columns: 48% 48%;
   grid-row: auto auto;
-  grid-column-gap: 5px;
-  grid-row-gap: 5px;
+  grid-column-gap: 1%;
+  grid-row-gap: 1%;
   .box{
     background-color:#333;
-    padding:8px;
+    padding:1%;
     border-radius:10px;
     display:flex;
     align-items:center;
     justify-content:center;
-    font-size:35px;
-    font-weight: 200;
+    font-size:2rem;
     font-family: Arial, Helvetica, sans-serif;
 
   }
@@ -159,35 +155,38 @@ h3 {
 
 
 
+.main {
+  display: flexbox;
+  height: 96vh;
+}
+
+
 .right-main {
   width: 60%;
-  height: 1000px;
+  height: 100%;  
   float: right;
-  margin-top: 30px;
-  padding-top: 160px;
-  padding-right: 50px;
-  overflow-y: scroll;
-
-}
-.right-main::-webkit-scrollbar {
-  display: none;
+  overflow-x: visible;
 }
 
 .right-scroll-container {
   width: 80%;
-  float: left;
-  margin-left: 15%;
+  height: 96vh;
+  float: right;
+  padding-top: 15%;
+  padding-right: 5%;
+  overflow-y: scroll;
   overflow-x: visible;
-
-
 }
 
+.right-scroll-container::-webkit-scrollbar {
+  display: none;
+}
 
 .paragraph{
   text-align: left;
-  text-indent: 20px;
-  margin-bottom: 0px;
-  margin-top: 0px;
+  text-indent: 1.5rem;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 
 .main-page-hr {
@@ -203,34 +202,18 @@ hr {
 
 
 
-
-
-
-
 .skills > div {
   display: flex;
-  padding-top: 20px;
+  padding-top: 4%;
 }
-
-
 
 
 #primary-skills > img {
-  width: 60px;
-  height: 60px;
-  margin-left: 10px;
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-left: 2%;
   float: left;  
 }
-
-
-#secondary-skills > img {
-  width: 60px;
-  height: 60px;
-  margin-left: 10px;
-  float: left; 
-}
-
-
 
 .div-ref {
   overflow: visible;
@@ -239,14 +222,15 @@ hr {
 .projects-container {
   margin-top: 5%;
   width: auto;
-  overflow: visible;
+  overflow-x: visible;
 }
 
 .project {
+  will-change: transform, box-shadow;
   width: 80%;
-  overflow: visible;
+  overflow-x: visible;
   position: relative;
-  margin: 10px auto;
+  margin: 2% auto;
   border-radius: 20px;
   display: flex;
   flex-direction: row;
@@ -255,9 +239,10 @@ hr {
 
 .project:hover {
   background-color: #3a3737;
-  box-shadow: -5px -5px 70px var(--dodger-blue);
-  transform: scale(1.15);
-  transition: all 0.3s;
+  /* box-shadow: -5px -5px 70px var(--dodger-blue); */
+  box-shadow: -3px -3px 30px var(--dodger-blue);
+  transform: scale(1.05);
+  transition: all 0.1s;
 }
 
 .image-container {
@@ -266,25 +251,16 @@ hr {
 }
 
 .project-image {
-  margin-top: 20px;
-  margin-left: 5px;
-  width: 200px;
-  height: 200px;
+  margin-top: 2rem;
+  width: 10rem;
+  height: 10rem;
   float: left;
 }
 
 .project-details {
-  margin-left: 20px;
-}
-
-.project-header {
+  margin-left: 3rem;
   text-align: left;
-  padding-left: 10px;
-}
-
-.project-par{
-  text-align: left;
-  padding-left: 10px;
+  padding-left: 1rem;
 }
 
 

@@ -5,8 +5,6 @@ function AboutMe() {
   return <body>
     <References />
     {/* <Books /> */}
-
-
   </body>;
 }
 

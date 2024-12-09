@@ -19,7 +19,7 @@ function Home() {
   }
 
   return (
-    <main>
+    <main className="main">
       <LeftMain section={section} onSetSection={handleSetSection}/>
       <RightMain section={section} onSetSection={handleSetSection}/> 
     </main>
