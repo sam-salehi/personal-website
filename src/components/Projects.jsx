@@ -4,9 +4,16 @@ import KNN from "../assets/projects/KNN.png";
 import OTHELLO from "../assets/projects/OTHELLO.png";
 import HUFFMAN from "../assets/projects/HUFF.svg";
 import LearningLoom from "../assets/projects/LearningLoom.png"
+import Pacman from "../assets/projects/pacman.png"
 // import NOTE from  "../assets/projects/NOTE.png";
 
 var projects = [
+  {
+    label: "Reinforced Pacman",
+    description: "Using Combinations of Convolutional and Recurrent Neural Networks for designing a reinforcement learning procedure. The game environment made from scratch using SFML in C++",
+    img: Pacman,
+    gitlink:  "https://github.com/Blewbsam/pacman-reinforced"
+  },
   {
     label: "Learning Loom", 
     description: "Using Retrieval-Augmented Generation with llm's in full Stack web application to make finding learning resources more accessible to students across disciplines. This project is still in the working.",
@@ -26,12 +33,12 @@ var projects = [
     gitlink:
       "https://github.com/Blewbsam/KNN-Song-Genre/blob/main/Final%20report.ipynb",
   },
-  {
-    label: "Implementing a Huffman encoding algorithm from scratch",
-    description : "Using BytePair encoding to create standard embedding tables of arbitary size and evaluating the entropies of respective huffman encoded tables.",
-    img: HUFFMAN,
-    gitlink: "https://github.com/Blewbsam/Huffman-encoder"
-  },
+  // {
+  //   label: "Implementing a Huffman encoding algorithm from scratch",
+  //   description : "Using BytePair encoding to create standard embedding tables of arbitary size and evaluating the entropies of respective huffman encoded tables.",
+  //   img: HUFFMAN,
+  //   gitlink: "https://github.com/Blewbsam/Huffman-encoder"
+  // },
 
 ];
 // projects is list of type project
